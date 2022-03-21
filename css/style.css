@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto+Condensed:wght@300;700&display=swap');
+
 /**
- * @author Prenom Nom <courriel>
+ * @author marianneanctil <courriel>
  *
  * TABLE DES MATIERES
  * Normalize
@@ -29,10 +31,6 @@
 
 /* Charte typographique
    ========================================================================== */
-/* Polices liées */
-/* copier ici l'instruction @import url('...'); proposé par Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto+Condensed:wght@300;700&display=swap');
-
 /* Base décimale */
 html{
    font-size: 62.5%;
@@ -101,16 +99,17 @@ h4{
    }
 }
 
-h2 { /* = 24px */
-   font-size: 1.8rem;
+h2 {
+    font-size: 1.8rem;
+    line-height: 1;
 }
 @media (min-width: 600px) {
-   h2 { /* = 32px */
+   h2 {
        font-size: 2.4rem;
    }
 }
 @media (min-width: 800px) {
-   h2 { /* = 36px */
+   h2 {
        font-size: 3rem;
    }
 }
